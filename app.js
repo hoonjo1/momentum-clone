@@ -1,14 +1,9 @@
-const age = parseInt(prompt("How old are you?"));
+const title = document.querySelector(".hello h1");
 
-
-if(isNaN(age)){
-    console.log("Please write a number");
-} else if (age<18){
-console.log("test");
-}  else if (age >=18 && age <=50) {
-    console.log("You can drink");
-}
-else {
-    console.log("You can't drink");
+function handelTitleClick(){
+    const random = "#" + Math.round(Math.random() * 0xffffff).toString(16)
+    console.log("title was clicked!");
+    title.style.color = random;
 }
 
+title.addEventListener("click", handelTitleClick);
