@@ -1,9 +1,10 @@
-const title = document.querySelector(".hello h1");
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
 
-function handelTitleClick(){
-    const random = "#" + Math.round(Math.random() * 0xffffff).toString(16)
-    console.log("title was clicked!");
-    title.style.color = random;
+function onLoginSubmit() {
+    const username = loginInput.value;
+    console.log(username);
 }
 
-title.addEventListener("click", handelTitleClick);
+
+loginForm.addEventListener("submit", onLoginSubmit);
