@@ -1,0 +1,29 @@
+@import "variables.css";
+
+.header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.mark {
+  width: 100px;
+  height: 100px;
+  background-color: var(--white);
+  background-image: url("../img/nomad-mark.png");
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 15px orange;
+}
+
+.weather__box {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.city {
+  font-size: 8px;
+  opacity: 0.9;
+}
