@@ -20,7 +20,7 @@ function onLoginSubmit(event) {
 }
 
 function paintGreetings(username){
-    greeting.innerText = `Wellcom  ${username}`;
+    greeting.innerText = `Wellcome  ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME)
     clock.classList.remove(HIDDEN_CLASSNAME)
     mid.classList.remove(HIDDEN_CLASSNAME);
