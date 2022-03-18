@@ -19,11 +19,16 @@
 }
 
 .weather__box {
-  margin-left: 5px;
-  font-size: 15px;
+  padding: 8px;
+  font-size: 23px;
+  left: 0;
+  color: var(--white);
+  opacity: 0.9;
 }
 
 .city {
-  font-size: 8px;
+  font-size: 11px;
   opacity: 0.9;
+  text-align: center;
+  margin: -5px;
 }
